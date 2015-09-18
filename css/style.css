@@ -66,6 +66,7 @@
 	h2 {
 		font-size: 2em;
 		line-height: 1.5em;
+        text-shadow: 0 0 50px #000000;
 	}
 
 	h3 {
