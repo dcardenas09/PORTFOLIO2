@@ -20,7 +20,10 @@
 		font-weight: 400;
 		line-height: 1.75em;
 	}
-
+        .myComp:hover{
+            transition: all 1s;
+            transform:scale(1.05,1.05);
+            }
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
