@@ -1100,3 +1100,31 @@
 				#footer .copyright li a {
 					color: inherit;
 				}
+
+.box {
+  width:80px;
+  height:10px;
+  position:relative;
+  border-radius:6px;
+  margin-top:4px;
+  display:inline-block;    
+}
+
+.blue{
+  background-color:#2B81D7;
+}
+
+.black {
+  background-color:#000000;
+}
+.grey {
+  background-color:#989898;
+}
+
+.boxes{
+    position:absolute;
+    left: 40%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    top:220px

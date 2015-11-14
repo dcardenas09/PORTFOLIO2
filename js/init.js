@@ -115,3 +115,22 @@
 	});
 
 })(jQuery);
+
+$(document).ready(function(){
+    spinBoxes();
+    setInterval(spinBoxes, 20000);
+});
+
+function spinBoxes(){
+    TweenMax.staggerTo(".box", 1, {rotation:180}, 0.5, function(){
+            var boxes = document.getElementsByClassName("box");
+            var boxesRev = [];
+            for (var i = boxes.length-1; i >=0; i--){
+                boxesRev.push(boxes[i]);
+            }
+            TweenMax.staggerTo(boxesRev, 1, {rotation:0}, 0.5);
+        });
+}
+
+
+
